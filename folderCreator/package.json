@@ -1,0 +1,39 @@
+{
+	"name": "folder-creator",
+	"description": "create new folder with files",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"folderCreator": "index.js",
+		"init": "index.js"
+	},
+	"author": {
+		"name": "Wednesday",
+		"email": "alinasereda300898@gmail.com",
+		"url": "https://github.com/seredulichka"
+	},
+	"keywords": [
+		"folderCreator",
+		"Wednesday"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"fs": "^0.0.1-security",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
