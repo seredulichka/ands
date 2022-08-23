@@ -8,5 +8,5 @@ export const powerOfThree = n => {
     n /= 3;
   }
 
-  return n === 1 ? true : false;
+  return n === 1;
 };

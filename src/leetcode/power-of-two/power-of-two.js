@@ -8,5 +8,5 @@ export const powerOfTwo = n => {
     n /= 2;
   }
 
-  return n === 1 ? true : false;
+  return n === 1;
 };
