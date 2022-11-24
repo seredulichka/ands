@@ -19,7 +19,7 @@ export const findWordsThatCanBeFormedByCharacters = (words, chars) => {
             wordMap.set(letter, (wordMap.get(letter) ?? 0) + 1);
         }
 
-        for (letter of wordMap.keys()) {
+        for (const letter of wordMap.keys()) {
             if(wordMap.get(letter) > (characters.get(letter) ?? 0)) {
                 formed = false
             }
